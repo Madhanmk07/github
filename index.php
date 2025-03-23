@@ -32,15 +32,16 @@
         <h2>Work Accessories</h2>
         <div class="grid">
             <div class="product">
-                <img src="C:\project\image folder\elegant.jpg" alt="Work Accessory 1">
+
+                <img src="elegant.jpg" alt="Work Accessory 1">
                 <p>Elegant Desk Tray</p>
             </div>
             <div class="product">
-                <img src="C:\project\image folder\handmade notebook.jpg" alt="Work Accessory 2">
+                <img src="notebook.jpg" alt="Work Accessory 2">
                 <p>Handcrafted Notebook</p>
             </div>
             <div class="product">
-                <img src="C:\project\image folder\woodern.jpg" alt="Work Accessory 3">
+                <img src="woodern.jpg" alt="Work Accessory 3">
                 <p>Traditional Wooden Stand</p>
             </div>
         </div>
@@ -78,3 +79,6 @@
 
 </body>
 </html>
+<?php
+$conn = mysqli_connect("localhost", "root", "");
+?>
